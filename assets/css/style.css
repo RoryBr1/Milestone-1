@@ -15,24 +15,11 @@ body {
     margin-left:55px;
 }
 
-@media screen and (max-width: 1120px) {
-	.logo {
-	width:20vw;
-    }
-
-    .menu-button a {
-    margin-left:1px;
-    margin-right:1px;
-    padding:5px;
-    }
-}
     .navbar {
-    display:inline-block;
     float:right;
-    padding-top:70px;
-    padding-right:40px;
+    margin-top:70px;
+    margin-right:40px;
     }
-
 
 .navbar ul {
     list-style:none;
@@ -70,7 +57,7 @@ body {
     text-decoration:none;
     transition-property:box-shadow;
 	transition-duration:.5s;
-	box-shadow: inset 0px 0px 6px rgb(148, 56, 59);
+	box-shadow: inset 0px 0px 12px rgb(148, 56, 59);
 }
 
 .menu-icon {
@@ -97,5 +84,39 @@ body {
 		opacity:1;
 		transform:translateY(0);
 	}
+
+}
+
+
+/*  LOGO AND NAVBAR DISPLAY RULES FOR TABLET-SIZED DEVICES */
+@media screen and (max-width: 1280px) {
+	.logo {
+    width:20vw;
+    min-width:150px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:0px;
+    padding-right:0px;
+    }
+
+    ul {
+    list-style:none;
+    margin:0px;
+    }
+
+    .navbar {
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:15px;
+    padding:0px;
+    }
+
+    .menu-button a {
+    margin-left:1px;
+    margin-right:1px;
+    font-size:12px;
+    padding-left:20px;
+    padding-right:5px;
+    }
 
 }
