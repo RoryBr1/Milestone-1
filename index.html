@@ -8,6 +8,18 @@
 <!-- BOOKMARK ICON: -->
     <link rel="icon" href="assets/images/favicon.png"/>
 
+<!-- jQUERY.js: -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<!-- CYCLE2.js: -->
+<script src="https://malsup.github.io/jquery.cycle2.js"></script>
+
+<!-- TOGGLE.js: -->
+<script src="http://learnwebcode.github.io/declarativeToggle/js/jquery.declarativeToggle.min.js"></script>
+
 <!-- BOOTSTRAP: -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -24,14 +36,14 @@
 <!-- STYLE.CSS: -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-
-
-
 </head>
 <body>
  
     <header>
         <a href="index.html"><img src="assets/images/logo.png" alt="Cross Street Barber Logo" class="logo"></a>
+
+
+
         <nav class="navbar">
             <ul>
                 <li class="menu-button"><a href="index.html">Home <ion-icon name="home" class="menu-icon"></ion-icon> </a></li>
@@ -41,12 +53,26 @@
                 <li>
             </ul>
             </div><!-- end .navbar -->
+
+            <div class="menuselectdiv">
+                <span data-toggle-target=".mobnavbar" id="menubutton"  class="toggle-btn"><i class="fas fa-bars"></i></span>
+                </div><!-- end .menuselectdiv -->
+
+            <nav class="mobnavbar">
+                <ul>
+                    <li class="menu-button"><a href="index.html">Home <ion-icon name="home" class="menu-icon"></ion-icon> </a></li>
+                    <li class="menu-button"><a href="pricelist.html">Pricelist <ion-icon name="cut" class="menu-icon"></ion-icon> </a></li>
+                    <li class="menu-button"><a href="contact.html">Contact <ion-icon name="call" class="menu-icon"></ion-icon> </a></li>
+                    <li class="menu-button"><a href="booking-app.html">Book Appointment <ion-icon name="calendar" class="menu-icon"></ion-icon> </a></li>
+                    <li>
+                    </ul>
+                </div><!-- end .mobnavbar -->
         </header>
 
-<div class="container welcome-text">
-<section>
+<div class="container welcome-text">  
+    <section>
         <div class="row justify-content-center text-center">
-            <div class="col-xl-8 col-sm-10">
+            <div class="col-xl-8 col-m-11">
             <h2>Barbering at it's best.</h2>
             <p>Cross Street Barbers is a one-stop shop for premier male grooming services.
               Our Barbers are committed to delivering first-class service every time you visit.</p>
@@ -77,17 +103,45 @@
         </div><!-- /row -->
 </section>
 
-<section>
+<section> <!-- EMBEDDED GOOGLE MAP, TIMETABLE -->
     <div class="row justify-content-center">
         <div class="col-l-8 times-map">
-        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.0147207220325!2d-9.055605548684568!3d53.27135588792853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96fad7d787d7%3A0x39e2ca87ae8a8171!2sCross%20Street%20Lower%2C%20Galway!5e0!3m2!1sen!2sie!4v1600942953626!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.0147207220325!2d-9.055605548684568!3d53.27135588792853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96fad7d787d7%3A0x39e2ca87ae8a8171!2sCross%20Street%20Lower%2C%20Galway!5e0!3m2!1sen!2sie!4v1600942953626!5m2!1sen!2sie" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="times">   
         <h2>Opening Times</h2>
-            <p></p>
+            <table id="timetable">
+                <tr>
+                    <td class="day">Monday - Friday</td>
+                    <td>9am - 6pm</td>
+                </tr>
+                <tr>
+                    <td class="day">Saturday</td>
+                    <td>10am - 5pm</td>
+                </tr>
+                <tr>
+                    <td class="day">Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
 
         </div><!-- /times -->
             </div><!-- /col -->
             </div><!-- /row -->
-            </section>
+</section>
+
+
+<footer>
+    <div class="footer">
+    Cross Street Barbers | All Rights Reserved
+        <div class="social-icons">
+        <a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon hvr-float"></i></a>
+        <a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f icon hvr-float"></i></a>
+        <a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter icon hvr-float"></i></a>
+        <a href="https://www.google.com/maps/place/No.+8+Galway/@53.2712711,-9.053376,19.6z/data=!4m19!1m13!4m12!1m6!1m2!1s0x485b96fb29d27701:0x60785d5f09e3129d!2sNo.+8+Galway!2m2!1d-9.0532152!2d53.2713121!1m3!2m2!1d-9.0533175!2d53.2713783!3e3!3m4!1s0x485b96fb29d27701:0x60785d5f09e3129d!8m2!3d53.2713121!4d-9.0532152" target="_blank">
+            <i class="fas fa-map-marker-alt icon hvr-float"></i></a>
+       </div>
+    </div>
+</footer>
+
 </body>
 </html>
