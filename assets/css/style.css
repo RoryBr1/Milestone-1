@@ -33,6 +33,14 @@ body {
     display:inline;
 }
 
+/* .mobnavbar is the drop-down toggled by menu icon at screen sizes 740px and less. It and #menu-toggle is invisible until those screen sizes. */
+.mobnavbar {
+    display:none
+}
+
+#menu-toggle {
+    display:none;
+}
 
 .menu-button a{
     color:#EBECEA;
@@ -232,7 +240,7 @@ h3 {
 }
 
 
-/*  LOGO AND NAVBAR DISPLAY RULES FOR TABLET-SIZED DEVICES */
+/*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
 @media screen and (max-width: 1280px) {
 	.logo {
     width:20vw;
@@ -320,12 +328,71 @@ h3 {
 }
 
 
-
+/* DISPLAY RULES FOR MOBILE SIZED DEVICES */
 @media screen and (max-width:740px) {
+    .logo {
+        display:inline;
+    }
+
     .navbar {
         display:none;
     }
 
+
+
+ul {
+    margin-top:10px;
+    padding:0;
+}
+    
+.mb-menu-button a{
+    color:#EBECEA;
+    font-family: 'PT Serif', serif;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.8);
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    min-height:55px;
+    width:100vw;
+    background-image: linear-gradient(rgba(91, 32, 35, 0.8),rgba(121, 42, 44, 0.8));
+    border-radius:0px;
+    border: 1px solid #67131D;
+    animation-name:fadeBounce;
+    animation-duration:1.2s;
+    transition-property:background-color,border-color,text-shadow;
+    transition-duration:.5s;
+}
+
+.mb-menu-button a:hover{
+    text-decoration:none;
+    transition-property:box-shadow;
+	transition-duration:.5s;
+	box-shadow: inset 0px 0px 12px rgb(148, 56, 59);
+}
+
+    #menu-toggle {
+        position:absolute;
+        right: 40px;
+        top: 0px;
+        display:block;
+        font-size:55px;
+        color:white;
+    }
+
+    .toggle-btn-visible {
+        display:block;
+        }
+    
+        .toggle-target-hidden {
+        display:none;
+        }
+    
+        .toggle-target-expanded {
+        display:block;
+        }
+    
     .footer {
         padding:0;
         margin:auto;

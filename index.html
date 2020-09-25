@@ -44,6 +44,7 @@
 
 
 
+        <!-- .navbar is the navigation for tablet & desktop sizes -->
         <nav class="navbar">
             <ul>
                 <li class="menu-button"><a href="index.html">Home <ion-icon name="home" class="menu-icon"></ion-icon> </a></li>
@@ -53,17 +54,20 @@
                 <li>
             </ul>
             </div><!-- end .navbar -->
+            </nav>
 
-            <div class="menuselectdiv">
-                <span data-toggle-target=".mobnavbar" id="menubutton"  class="toggle-btn"><i class="fas fa-bars"></i></span>
-                </div><!-- end .menuselectdiv -->
+        <!-- .menuselectdiv is the div containing menu icon -->
+        <div class="menuselectdiv">
+            <span data-toggle-target=".mobnavbar" id="menu-toggle"  class="toggle-btn"><i class="fas fa-bars"></i></span>
+            </div><!-- end .menuselectdiv -->
 
+        <!-- .mobnavbar is the drop-down toggled by .menuselectdiv at mobile resolutions -->
             <nav class="mobnavbar">
                 <ul>
-                    <li class="menu-button"><a href="index.html">Home <ion-icon name="home" class="menu-icon"></ion-icon> </a></li>
-                    <li class="menu-button"><a href="pricelist.html">Pricelist <ion-icon name="cut" class="menu-icon"></ion-icon> </a></li>
-                    <li class="menu-button"><a href="contact.html">Contact <ion-icon name="call" class="menu-icon"></ion-icon> </a></li>
-                    <li class="menu-button"><a href="booking-app.html">Book Appointment <ion-icon name="calendar" class="menu-icon"></ion-icon> </a></li>
+                    <li class="mb-menu-button"><a href="index.html">Home <ion-icon name="home" class="menu-icon"></ion-icon> </a></li>
+                    <li class="mb-menu-button"><a href="pricelist.html">Pricelist <ion-icon name="cut" class="menu-icon"></ion-icon> </a></li>
+                    <li class="mb-menu-button"><a href="contact.html">Contact <ion-icon name="call" class="menu-icon"></ion-icon> </a></li>
+                    <li class="mb-menu-button"><a href="booking-app.html">Book Appointment <ion-icon name="calendar" class="menu-icon"></ion-icon> </a></li>
                     <li>
                     </ul>
                 </div><!-- end .mobnavbar -->
