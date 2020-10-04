@@ -144,7 +144,7 @@ h3 {
 .book-button a:hover{
     text-decoration:none;
     transition-property:box-shadow;
-	transition-duration:.5s;
+	transition-duration:1s;
 	box-shadow: inset 0px 0px 12px rgb(148, 56, 59);
 }
 
@@ -260,7 +260,7 @@ h3 {
 .pricebox {
     width:90%;
     max-width:900px;
-    height:220px;
+    height:200px;
     margin:auto;
     margin-top:30px;
     background-color:#5B2023;
@@ -273,8 +273,8 @@ h3 {
 .pricebox h3 {
     display:inline;
     vertical-align:top;
-    line-height:4;
-    padding-left:7%;
+    line-height:3;
+    padding-left:15%;
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color:rgba(129, 24, 36, 0.5);
@@ -291,6 +291,8 @@ h3 {
     font-family: 'Oswald', sans-serif;
     color:#EBECEA;
     margin-left:20px;
+    margin-top:none;
+    padding-top:none;
 }
 
 .pricebox h4 {
@@ -303,7 +305,7 @@ h3 {
     padding-top:0px;
 }
 
-.pricelist-booknow {
+.pricelist-booknow  {
     float:left;
     font-family: 'PT Serif', serif;
     color:#EBECEA;
@@ -316,7 +318,17 @@ h3 {
     padding-bottom:6px;
     padding-left:20px;
     padding-right:20px;
-    margin-left:20%;
+    margin-left:25%;
+    margin-bottom:20px;
+}
+
+.pricelist-booknow:hover {
+    color:#EBECEA;
+    text-decoration:none;
+}
+
+.mob-pricelist-booknow {
+    display:none;
 }
 
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
@@ -417,6 +429,11 @@ h3 {
 
     .pricebox h4 {
         padding-top:30px;
+    }
+
+    .pricelist-booknow {
+        margin-top:30px;
+        margin-left:20%;
     }
 }
 
@@ -581,6 +598,25 @@ ul {
 
     .pricelist-booknow {
         display:none;
+    }
+
+    .mob-pricelist-booknow {
+        display:inline;
+        position: fixed;
+        z-index:1000;
+        left:15px;
+        bottom:65px;
+        font-family: 'PT Serif', serif;
+        color:#EBECEA;
+        border:1px solid #EBECEA;
+        background-image: linear-gradient(rgba(91, 32, 35, 0.8),rgba(121, 42, 44, 0.8));
+        text-shadow: 0px 0px 14px rgba(0,0,0,.9);
+        box-shadow: 0px 0px 14px rgba(0,0,0,.9);
+        border-radius:5px;
+        padding-top:6px;
+        padding-bottom:6px;
+        padding-left:20px;
+        padding-right:20px;
     }
 }
 
