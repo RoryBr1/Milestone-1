@@ -256,9 +256,33 @@ h3 {
     text-shadow:0px 0px 5px rgba(0,0,0,0.8);
 }
 
+/* PRICELIST STYLING */
+.pricebox {
+    width:90%;
+    margin:auto;
+    margin-top:40px;
+    background-color:#5B2023;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius:10px;
+    padding:0px;
+}
 
+.pricebox h3 {
+    display:inline;
+    vertical-align:top;
+    line-height:4;
+    padding-left:7%;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:rgba(129, 24, 36, 0.5);
+}
+
+.pricebox img {
+    border-radius:10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+}
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
 
 	.logo {
     width:20vw;
@@ -295,14 +319,14 @@ h3 {
 
     .times-map {
     margin:auto;
-    margin-left:none;
-    width:100vw;
-    padding-bottom:20px;
-    border-radius:0;
+    margin-left:50px;
+    width:90vw;
+    padding-bottom:30px;
+    border-radius:10;
     }
-
+    
     #timetable td {
-    padding-right:45px;
+    padding-right:90px;
     padding-left:45px;
     padding-bottom:10px;
     }
@@ -436,7 +460,7 @@ ul {
     }
 
     .times-map {
-        max-width:100vw;
+        width:100vw;
         margin:0;
         border-radius:0;
     }
@@ -456,6 +480,14 @@ ul {
         padding-bottom:10px;
         }
 
+    .social-icons {
+        padding-right:16vw;
+    }
+
+    .social-icons a {
+        padding:7px;
+    }
+
     .row {
         max-width:100%;
     }
@@ -465,9 +497,13 @@ ul {
     }
 
     h3 {
-        margin-top:20px;
+        margin:none;
+        padding:none;
     }
 
+    .pricebox img {
+        height:180px;
+    }
 }
 
 @media screen and (max-width:376px) {
