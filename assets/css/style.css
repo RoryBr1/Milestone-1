@@ -259,12 +259,15 @@ h3 {
 /* PRICELIST STYLING */
 .pricebox {
     width:90%;
+    max-width:900px;
+    height:220px;
     margin:auto;
-    margin-top:40px;
+    margin-top:30px;
     background-color:#5B2023;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
     border-radius:10px;
     padding:0px;
+    margin-bottom:30px;
 }
 
 .pricebox h3 {
@@ -278,6 +281,8 @@ h3 {
 }
 
 .pricebox img {
+    float:left;
+    margin-right:30px;
     border-radius:10px;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
 }
@@ -285,6 +290,33 @@ h3 {
 .pricebox p {
     font-family: 'Oswald', sans-serif;
     color:#EBECEA;
+    margin-left:20px;
+}
+
+.pricebox h4 {
+    font-family: 'PT Serif', serif;
+    font-style:italic;
+    color:#EBECEA;
+    text-shadow: 0px 0px 14px rgba(0,0,0,.9);
+    float:right;
+    padding-right:10%;
+    padding-top:0px;
+}
+
+.pricelist-booknow {
+    float:left;
+    font-family: 'PT Serif', serif;
+    color:#EBECEA;
+    border:1px solid #EBECEA;
+    background-color:transparent;
+    text-shadow: 0px 0px 14px rgba(0,0,0,.9);
+    box-shadow: 0px 0px 14px rgba(0,0,0,.9);
+    border-radius:5px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:20%;
 }
 
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
@@ -382,9 +414,21 @@ h3 {
     .row {
         width:100vw;
     }
+
+    .pricebox h4 {
+        padding-top:30px;
+    }
 }
 
+@media screen and (min-width: 1100px) {
+    .pricebox p {
+        width:80%;
+        text-align:center;
+        margin-left:50px;
+    }
 
+
+}
 /* DISPLAY RULES FOR MOBILE SIZED DEVICES */
 @media screen and (max-width:740px) {
 
@@ -508,17 +552,35 @@ ul {
     }
 
     .pricebox img {
-        height:180px;
+        height:200px;
+        margin-right:10px;
     }
 
     .pricebox {
+        height:200px;
         width:100%;
     }
     
     .pricebox h3 {
-        padding-left:1%;
+        padding-left:0px;
+        padding-bottom:0px;
+        margin-bottom:0px;
         line-height:3;
         font-size:17px;
+    }
+
+    .pricebox h4 {
+        padding-top:0px;
+        font-size:22px;
+    }
+
+    .pricebox p {
+        line-height:23px;
+        padding-bottom:10px;
+    }
+
+    .pricelist-booknow {
+        display:none;
     }
 }
 
@@ -526,6 +588,10 @@ ul {
 
     h2 {
         font-size:160%;
+    }
+    
+    .pricebox h3 {
+        font-size:16px;
     }
 
     .row {
