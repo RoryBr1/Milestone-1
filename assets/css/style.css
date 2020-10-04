@@ -281,6 +281,12 @@ h3 {
     border-radius:10px;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
 }
+
+.pricebox p {
+    font-family: 'Oswald', sans-serif;
+    color:#EBECEA;
+}
+
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
 @media screen and (max-width: 1024px) {
 
@@ -503,6 +509,16 @@ ul {
 
     .pricebox img {
         height:180px;
+    }
+
+    .pricebox {
+        width:100%;
+    }
+    
+    .pricebox h3 {
+        padding-left:1%;
+        line-height:3;
+        font-size:17px;
     }
 }
 
