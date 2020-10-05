@@ -415,18 +415,16 @@ form {
 
 .form-check-label {
     margin:auto;
-    padding-left:80px;
+    padding-left:25%;
     margin-bottom:15px;
     font-family: 'Oswald', sans-serif;
     color:#EBECEA;
 }
 
 .form-check-input {
-    height:24px;
-    left:30%;
-    margin:auto;
+    margin-bottom:2px;
+    margin-left:20px;
     padding-left:50px;
-    line-height:1;
 }
 
 form .usermsg {
