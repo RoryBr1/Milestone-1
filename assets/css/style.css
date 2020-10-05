@@ -680,6 +680,11 @@ ul {
         font-size:16px;
     }
 
+    .contact-button a {
+        float:right;
+        width:280px;
+        font-size:16px;
+    }
 }
 
 /*  ANIMATIONS  */
