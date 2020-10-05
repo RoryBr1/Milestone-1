@@ -59,7 +59,7 @@ body {
     min-width:108px;
     background-image: linear-gradient(rgba(91, 32, 35, 0.8),rgba(121, 42, 44, 0.8));
     border-radius:10px;
-    border: 1px solid #67131D;
+    border: 1px solid #85363b;
     text-align:center;
     animation-name:fadeBounce;
     animation-duration:1.2s;
@@ -133,7 +133,7 @@ h3 {
     min-width:108px;
     background-image: linear-gradient(rgba(91, 32, 35, 0.8),rgba(121, 42, 44, 0.8));
     border-radius:10px;
-    border: 1px solid #67131D;
+    border: 1px solid #85363b;
     text-align:center;
     animation-name:fadeBounce;
     animation-duration:1.2s;
@@ -163,19 +163,14 @@ h3 {
     min-height:55px;
     min-width:108px;
     background-image: linear-gradient(rgba(91, 32, 35, 0.8),rgba(121, 42, 44, 0.8));
+    border:solid 1px #803034;
     border-radius:10px;
-    border: 1px solid #67131D;
+    border: 1px solid #85363b;
     text-align:center;
-    animation-name:fadeBounce;
-    animation-duration:1.2s;
-    transition-property:background-color,border-color,text-shadow;
-	transition-duration:.5s;
 }
 
 .contact-button a:hover{
     text-decoration:none;
-    transition-property:box-shadow;
-	transition-duration:1s;
 	box-shadow: inset 0px 0px 12px rgb(148, 56, 59);
 }
 
@@ -226,6 +221,7 @@ h3 {
     width:800px;
     background-color:#5B2023;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border:solid 1px #803034;
     border-radius:10px;
     padding:0px;
 }
@@ -294,6 +290,7 @@ h3 {
     margin:auto;
     margin-top:30px;
     background-color:#5B2023;
+    border:solid 1px #803034;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
     border-radius:10px;
     padding:0px;
@@ -360,6 +357,94 @@ h3 {
 .mob-pricelist-booknow {
     display:none;
 }
+
+
+/* FORM STYLING */
+
+.formcontainer {
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    margin-top:30px;
+    background-color:#5B2023;
+    border:solid 1px #803034;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:30px;
+}
+
+.formcontainer h3 {
+    display:inline;
+    vertical-align:top;
+    line-height:3;
+    padding-left:15%;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:rgba(129, 24, 36, 0.5);
+}
+
+.formcontainer p {
+    font-family: 'Oswald', sans-serif;
+    color:#EBECEA;
+    margin-left:20px;
+    margin-top:none;
+    padding-top:none;
+}
+
+.formcontainer h4 {
+    font-family: 'PT Serif', serif;
+    font-style:italic;
+    color:#EBECEA;
+    text-shadow: 0px 0px 14px rgba(0,0,0,.9);
+    float:right;
+    padding-right:10%;
+    padding-top:0px;
+}
+
+form {
+    max-width:60%;
+    margin:auto;
+}
+
+.formsubmit {
+    max-width:50%;
+    margin:auto;
+}
+
+.form-check-label {
+    margin:auto;
+    padding-left:80px;
+    margin-bottom:15px;
+    font-family: 'Oswald', sans-serif;
+    color:#EBECEA;
+}
+
+.form-check-input {
+    height:24px;
+    left:30%;
+    margin:auto;
+    padding-left:50px;
+    line-height:1;
+}
+
+form .usermsg {
+    height:150px;
+}
+
+.formsubmit {
+    margin-left:25%;
+    width:50%;
+    border-radius:5px;
+    font-family: 'PT Serif', serif;
+    color:#EBECEA;
+    border:1px solid #EBECEA;
+    background-color:transparent;
+    text-shadow: 0px 0px 14px rgba(0,0,0,.9);
+    box-shadow: 0px 0px 14px rgba(0,0,0,.9);
+}
+
 
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
 @media screen and (max-width: 1024px) {
@@ -656,6 +741,15 @@ ul {
     
     .contact-button .menu-icon {
         padding-left:0px;
+    }
+
+    form {
+        max-width:95%;
+        margin:auto;
+    }
+
+    .form-check-input {
+        left:15%;
     }
 }
 
