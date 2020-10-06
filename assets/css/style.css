@@ -442,6 +442,15 @@ form .usermsg {
     box-shadow: 0px 0px 14px rgba(0,0,0,.9);
 }
 
+.confirmation-image {
+    display:block;
+    width:25%;
+    margin:auto;
+}
+
+.confirmation-image img {
+    border-radius:20px;
+}
 
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */
 @media screen and (max-width: 1024px) {
@@ -548,6 +557,14 @@ form .usermsg {
         margin-top:30px;
         margin-left:20%;
     }
+
+    .confirmation-image {
+        display:block;
+        width:45%;
+        margin:auto;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -576,12 +593,12 @@ form .usermsg {
     }
 
 
-ul {
+    ul {
     margin-top:25px;
     padding:0;
-}
+    }
     
-.mb-menu-button a{
+    .mb-menu-button a{
     color:#EBECEA;
     font-family: 'PT Serif', serif;
     text-shadow: 0px 0px 7px rgba(0,0,0,0.8);
@@ -599,14 +616,14 @@ ul {
     animation-duration:1.2s;
     transition-property:background-color,border-color,text-shadow;
     transition-duration:.5s;
-}
+    }
 
-.mb-menu-button a:hover{
+    .mb-menu-button a:hover{
     text-decoration:none;
     transition-property:box-shadow;
 	transition-duration:.5s;
 	box-shadow: inset 0px 0px 12px rgb(148, 56, 59);
-}
+    }   
 
     #menu-toggle {
         position:absolute;
@@ -749,6 +766,13 @@ ul {
     .form-check-input {
         left:15%;
     }
+
+    .confirmation-image {
+        display:block;
+        width:100%;
+        margin:auto;
+        margin-top:30px;
+    }
 }
 
 @media screen and (max-width:376px) {
@@ -776,6 +800,11 @@ ul {
         float:right;
         width:280px;
         font-size:16px;
+    }
+
+    .confirmation-image {
+        margin-top:30px;
+        margin-bottom:30px;
     }
 }
 
