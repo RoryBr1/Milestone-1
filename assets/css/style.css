@@ -430,6 +430,10 @@ form .usermsg {
     height:150px;
 }
 
+form select {
+    margin-bottom:15px;
+}
+
 .formsubmit {
     margin-left:25%;
     width:50%;
@@ -440,6 +444,23 @@ form .usermsg {
     background-color:transparent;
     text-shadow: 0px 0px 14px rgba(0,0,0,.9);
     box-shadow: 0px 0px 14px rgba(0,0,0,.9);
+}
+
+#bookingdate {
+    width:40%;
+    display:inline-block;
+    margin-bottom:15px;
+    margin-left:7%;
+}
+
+#bookingtime {
+    width:40%;
+    display:inline-block;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    color:#EBECEA;
 }
 
 .confirmation-image {
@@ -772,6 +793,10 @@ form .usermsg {
         width:100%;
         margin:auto;
         margin-top:30px;
+    }
+
+    label {
+        font-size:80%;
     }
 }
 
