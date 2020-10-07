@@ -1,4 +1,4 @@
-<img src="/assets/images/logo.png">
+<img src="/assets/images/logo.png" height="100">
 
 
 #
