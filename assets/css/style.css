@@ -673,6 +673,16 @@ label {
         justify-content:center;
         text-align:center;
     }
+
+    .review-slider {
+    height:360px;
+    }
+
+    .review-slider h3 {
+       margin-top:30px;
+
+    }
+
     .carousel-indicators {
         position:relative;
     }
@@ -681,6 +691,10 @@ label {
         width:100vw;
         margin:0;
         border-radius:0;
+    }
+
+    .times h2 {
+        padding-top:8px;
     }
 
     .book-button a {
