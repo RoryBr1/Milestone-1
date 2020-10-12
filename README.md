@@ -8,3 +8,11 @@ The site is intended to inform potential customers about the shop's services and
 
 Information must be presented in a clear, straight-forward manner, and keep in mind the overall goal of securing customer bookings. For this reason, it is also important to maintain a simple navigational structure with convenient call-to-action buttons which direct customers to the booking process.
 
+### User Stories
+-As a first-time customer, I want to know the shop's location so I know how to get there.
+-As a first-time customer, I want to know what services the shop offers to see if it has what I need.
+-As a first-time customer, I want a list of prices so I can decide if they are within my budget.
+-As a first-time customer, I want to see some reviews so I know the business is worth visiting.
+-As a customer, I want to book an appointment online to save time and get booking confirmation.
+-As a customer, I want to know how to contact the business directly to ask a question.
+-As a customer, I want to know when the shop is open so I can contact them/visit.
