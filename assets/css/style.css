@@ -115,13 +115,6 @@ h3 {
     color:#EBECEA;
 }
 
-a {
-    color:#EBECEA;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color:rgba(129, 24, 36, 0.7);
-}
-
 a:hover {
     text-decoration:none;
 }
@@ -367,6 +360,12 @@ a:hover {
     display:none;
 }
 
+p a {
+    color:#EBECEA;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:rgba(129, 24, 36, 0.7);
+}
 
 /* FORM STYLING */
 
