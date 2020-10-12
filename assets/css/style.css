@@ -360,13 +360,12 @@ a:hover {
     display:none;
 }
 
-p a {
+#bookinglink {
     color:#EBECEA;
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color:rgba(129, 24, 36, 0.7);
 }
-
 /* FORM STYLING */
 
 .formcontainer {
