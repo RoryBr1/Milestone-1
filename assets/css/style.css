@@ -468,14 +468,12 @@ label {
     color:#EBECEA;
 }
 
-.confirmation-image {
-    display:block;
-    width:25%;
-    margin:auto;
-}
-
 .confirmation-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius:20px;
+    width:50%;
 }
 
 /*  DISPLAY RULES FOR TABLET-SIZED DEVICES */

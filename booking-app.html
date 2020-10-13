@@ -84,9 +84,9 @@
 <section><!-- CONTACT FORM -->
     <div class="formcontainer">
         <form id="contact" action="booking-confirmation.html">
-	        <input name="username" type="text" placeholder="Enter your name" class="form-control"/> <br /> 
-            <input name="userphone" type="tel" placeholder="Enter your phone num." class="form-control"/> <br /> 
-            <input name="useremail" type="email" placeholder="Enter your e-mail" class="form-control"/> <br /> 
+	        <input name="username" type="text" placeholder="Enter your name" class="form-control" required /> <br /> 
+            <input name="userphone" type="tel" placeholder="Enter your phone num." class="form-control" required /> <br /> 
+            <input name="useremail" type="email" placeholder="Enter your e-mail" class="form-control" required /> <br /> 
                 <label for="userservice">Choose service..</label>
                 <select class="form-control" id="userservice">
                   <option>Wash, Classic Cut & Style - €12</option>
@@ -95,8 +95,8 @@
                 </select>
                 <input class="form-check-input" type="checkbox" value="" id="addbeardtrim">
                 <label class="form-check-label" for="addbeardtrim">Add a beard trim/edge-up <em>( + €2 )</em></label><br />
-                <input class="form-control" type="date" id="bookingdate" name="bookingdate">
-                <input class="form-control" type="time" id="bookingtime" name="bookingtime">
+                <input class="form-control" type="date" id="bookingdate" name="bookingdate" required>
+                <input class="form-control" type="time" id="bookingtime" name="bookingtime" required>
                 <br>
 
             <input class="form-check-input" type="checkbox" value="" id="contactagree">
