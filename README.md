@@ -86,5 +86,5 @@ All images used are credited below. Images have been cropped & color-edited for 
 - service-2.png - [Chris Knight](https://unsplash.com/photos/vI3m5UnZ0aQ) | [License](https://unsplash.com/license)
 - service-3.png - [Christoffer Engstrom](https://unsplash.com/photos/1ouGlRChSbY) | [License](https://unsplash.com/license)
 - service-4.png - [Nick Demou](https://www.pexels.com/photo/gray-hand-tool-1319459/) | [License](https://www.pexels.com/license/)
-- confirmation-image.png [Chris Knight](https://unsplash.com/photos/_H1XXY96pqw) | [License](https://unsplash.com/license)
-- Silhouette of razor used in logo [pngwing](https://www.pngwing.com/en/free-png-yxgwm) | Non-commercial use, DMCA
+- confirmation-image.png - [Chris Knight](https://unsplash.com/photos/_H1XXY96pqw) | [License](https://unsplash.com/license)
+- Silhouette of razor used in logo - [pngwing](https://www.pngwing.com/en/free-png-yxgwm) | Non-commercial use, DMCA
