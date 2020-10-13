@@ -63,6 +63,7 @@ Each page of the website has been navigated to and tested on the following platf
 - Opera 70 (Windows 64-bit), desktop resolution
 - Responsively.app 0.13.2, all available screen sizes
 - Safari on iPhone 8 Plus, iOS 14.0.1
+
 Website is functionally & visually working as intended on these platforms.
 
 The following features have been tested in Chrome (including all screen sizes on developer tools), Responsively.app, and Safari on iPhone 8 Plus:
@@ -74,5 +75,6 @@ The following features have been tested in Chrome (including all screen sizes on
 - Opening Times timetable
 - Contact; telephone & e-mail buttons open corresponding apps on iPhone 8 Plus
 - Social media links open in new browser tab 
+
 All above features are functionally & visually working as intended. 
 
