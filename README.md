@@ -78,3 +78,13 @@ The following features have been tested in Chrome (including all screen sizes on
 
 All above features are functionally & visually working as intended. 
 
+## Credits
+All images used are credited below. Images have been cropped & color-edited for website's purposes by Rory Brosnan using [GIMP](https://www.gimp.org/). 
+- background.png - [Allef Vinicius](https://unsplash.com/photos/IvQeAVeJULw) | [License](https://unsplash.com/license)
+- review-background.png, review-background-mobile.png - [Nathan Oski](https://unsplash.com/photos/EW_rqoSdDes) | [License](https://unsplash.com/license)
+- service-1.png - ["cottonbro"](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/) | [License](https://www.pexels.com/license/)
+- service-2.png - [Chris Knight](https://unsplash.com/photos/vI3m5UnZ0aQ) | [License](https://unsplash.com/license)
+- service-3.png - [Christoffer Engstrom](https://unsplash.com/photos/1ouGlRChSbY) | [License](https://unsplash.com/license)
+- service-4.png - [Nick Demou](https://www.pexels.com/photo/gray-hand-tool-1319459/) | [License](https://www.pexels.com/license/)
+- confirmation-image.png [Chris Knight](https://unsplash.com/photos/_H1XXY96pqw) | [License](https://unsplash.com/license)
+- Silhouette of razor used in logo [pngwing](https://www.pngwing.com/en/free-png-yxgwm) | Non-commercial use, DMCA
